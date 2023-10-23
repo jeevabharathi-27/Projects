@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.background-image {
+     background-image: url('./images/mj2.avif');
+    background-size: 100% 100%;
+    position: fixed;
+    width: 1517px;
+    height: 688px;
+    z-index: -1;
+}
+
+.register-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height:600px;
+    width:500px;
+}
+.div3{
+	 width:80%;
+    padding: 10px;
+    margin:10px 0px 10px 30px;
+}
+.div4{
+	 width:30%;
+    padding: 10px;
+    margin:20px 0px 0px 180px;
+}
